@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #54BA9B;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+.card{
+  /*background-color: #f84d83;*/
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 15px;
+}
+
+body h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 1.3em;
+  padding: 10px;
+}
+body .inputCargaImg {
+  padding: 15px;
+}
+body .seccionImgCargada {
+  padding: 15px;
+  width: 200px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+body .seccionImgCargada img {
+  width: 150px;
+  height: 150px;
+}
+body .seccionImgCargada .letraSeccionImgCargada {
+  font-size: 1.1em;
+}
+body .seccionMedidas {
+  /*background-color: #ff87b7a1;*/
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  color: #333;
+  background-color: #8FEF8B;
+}
+body button {
+  width: 200px;
+  background-color: #945AB4;
+  padding: 15px;
+  font-style: none;
+  box-shadow: 1px 1px 3px #000;
+  border-radius: 25px;
+  border: 1px solid #000;
+  color: #fff;
+}
+body button:hover {
+  box-shadow: 3px 3px 5px #000;
+}/*# sourceMappingURL=style.css.map */
